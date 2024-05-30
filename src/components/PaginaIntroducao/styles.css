@@ -1,0 +1,80 @@
+
+
+
+.intro-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100vw;
+  overflow-x:hidden;
+}
+
+.intro-container .container-wrapper {
+  display: flex;
+  width: min(122.0rem, 90vw);
+  align-items: center;
+  justify-content: space-between;
+  gap: 10.0rem;
+  padding:10.0rem 0;
+}
+
+/*? info - inicio */
+
+.intro-container .container-wrapper .info {
+  display: flex;
+  width: min(122.0rem, 90vw);
+  align-items: center;
+  flex-direction:column;
+  justify-content: space-between;
+  gap: 5.0rem;
+}
+
+
+.intro-container .container-wrapper .info  p{
+ line-height: 1.5;
+}
+
+/*? info - end */
+
+/*?  imagem-container - inicio */
+
+.intro-container .container-wrapper .imagem-container{
+  width: 100%;
+}
+.intro-container .container-wrapper .imagem-container img{
+   width: 100%;
+}
+
+/*?  imagem-container - end */
+
+
+
+
+
+.buttons {
+  display: flex;
+  margin-top: 2.0rem; /* Adiciona um espaçamento entre o conteúdo e os botões */
+}
+
+
+
+
+
+.botao-link {
+  cursor: pointer;
+}
+
+/*? responsivo - inicio */
+
+@media (max-width: 76.8rem) {
+  .intro-container .container-wrapper  {
+  
+   
+    flex-direction:column-reverse;
+    
+    gap: 3.0rem;
+  }
+}
+
+/*? responsivo - end */

@@ -1,0 +1,126 @@
+.page {
+    background: var(--bg-gradient);
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+    padding: 4.0rem;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(178, 175, 226);
+    box-shadow: 0 0 1.0rem rgba(0, 0, 0, 0.1);
+    border-radius: .5rem;
+    width: min(122.0rem , 90vw);
+    padding: 4.0rem;
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 1.0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.0rem;
+  }
+
+  .logo {
+    background-color: #002c5c;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 1.0rem 4.0rem;
+    border-radius: 1.0rem;
+    border: .2rem solid black;
+    margin-bottom: 2.0rem;
+  }
+  
+  .header h2 {
+    font-size: 2.4rem;
+  }
+  
+  .header p {
+    font-size: 1.8rem;
+    color: #666;
+    font-weight: 600;
+  }
+  
+  .form-container {
+    display: grid;
+    grid-template-columns: repeat(
+      auto-fill,
+      minmax(calc((106.0rem / 2) - 2.0rem), 1fr)
+    );
+    gap: 2.0rem;
+    margin-top: 3.0rem;
+    width: 100%;
+  }
+
+  form{
+    height: 100%;
+  }
+  
+
+  form fieldset{
+    display: flex;
+    flex-direction: column;
+    border: .1rem solid #08275f;
+    border-radius: .5rem;
+    padding: 4.0rem;
+    gap: 2.0rem;
+    height: inherit;
+    position: relative;
+  }
+
+  .input-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+
+   
+  }
+  .input-wrapper  input {
+    width: 100%;
+    border-radius: .8rem;
+    color: #736e7c;
+    font-size: 1.6rem;
+    padding: 1.0rem;
+    border: none;
+  } 
+
+
+
+  h3 {
+   
+    background-color: #024ea0;
+    padding: .3rem;
+    color: white;
+    text-align: center;
+    border-radius: .2rem;
+    border: .1rem solid gray;
+  }
+  
+ 
+  
+  label {
+    margin-bottom: .5rem;
+  }
+  
+
+  
+  button {
+    padding: 1.0rem;
+    background: #007BFF;
+    color: white;
+    border: none;
+    border-radius: .3rem;
+    cursor: pointer;
+    translate: background .3s ;
+  }
+  
+  button:hover {
+    background: #0056b3;
+  }
+  
